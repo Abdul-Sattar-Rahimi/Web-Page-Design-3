@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#F7F7F7" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>پایگاه خبری آفتاب</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-rtl.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="rtl">
+
+    <!-- ۱. linkbar : نوار باریک بالای صفحه -->
+    <div class="linkbar bg-secondary text-white py-1">
+      <div class="container d-flex justify-content-between">
+        <div>
+          <a href="" class="text-white small ml-3">درباره ما</a>
+          <a href="" class="text-white small ml-3">ارتباط با ما</a>
+          <a href="" class="text-white small">ارسال نظرات</a>
+        </div>
+        <div>
+          <a href="" class="text-white small ml-2"><i>تلگرام</i></a>
+          <a href="" class="text-white small"><i>اینستاگرام</i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ۲. header : لوگو و عنوان سایت -->
+    <header class="container text-center py-3">
+      <h1 class="display-4 m-0">پایگاه خبری آفتاب</h1>
+      <p class="text-muted">نخستین رسانه‌ی خبری منطقه</p>
+    </header>
+
+    <!-- ۳. menu : منوی اصلی -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light border-top border-bottom">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainMenu">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">صفحه نخست</a></li>
+            <li class="nav-item"><a class="nav-link" href="">اخبار</a></li>
+            <li class="nav-item"><a class="nav-link" href="">گزارش تصویری</a></li>
+            <li class="nav-item"><a class="nav-link" href="">حوادث</a></li>
+            <li class="nav-item"><a class="nav-link" href="">گزارش ویژه</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ۴. newsbar : نوار خبر مهم -->
+    <div class="newsbar bg-danger text-white py-2">
+      <div class="container d-flex">
+        <span class="badge badge-light text-danger ml-2">مهم</span>
+        <span class="small">جلسه فوق‌العاده‌ی شورای شهر برای بررسی بودجه‌ی سال آینده برگزار شد</span>
+      </div>
+    </div>
+
+    <!-- ۵. content : بخش اصلی، اسلایدر و اخبار کناری -->
+    <div class="container mt-4">
+      <div class="row">
+
+        <div class="col-md-3 d-none d-md-block">
+          <div class="card mb-3">
+            <div class="card-header bg-dark text-white">گفتگوها</div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><a href="">رونمایی از سامانه‌ی جدید شهرداری</a></li>
+              <li class="list-group-item"><a href="">اصلاحات مورد نظر در دستور کار قرار گرفت</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div id="mainCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#mainCarousel" data-slide-to="1"></li>
+              <li data-target="#mainCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/slide1.jpg" class="d-block w-100" alt="اسلاید یک">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>افتتاح پروژه‌ی عمرانی شهر</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/slide2.jpg" class="d-block w-100" alt="اسلاید دو">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>نشست خبری استاندار</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/slide3.jpg" class="d-block w-100" alt="اسلاید سه">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>جشنواره‌ی فرهنگی منطقه</h5>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#mainCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#mainCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <div class="card-header bg-dark text-white">اخبار</div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item small"><a href="">آغاز ثبت‌نام طرح مسکن ملی در شهر</a></li>
+              <li class="list-group-item small"><a href="">برگزاری جشنواره‌ی فرهنگی منطقه</a></li>
+              <li class="list-group-item small"><a href="">افتتاح بزرگراه جدید ورودی شهر</a></li>
+              <li class="list-group-item small"><a href="">نشست خبری استاندار با رسانه‌ها</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ۶. editor : انتخاب سردبیر -->
+    <div class="container mt-4">
+      <h4 class="border-bottom pb-2 mb-3">انتخاب سردبیر</h4>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card h-100">
+            <img src="images/editor1.jpg" class="card-img-top" alt="خبر سردبیر یک">
+            <div class="card-body">
+              <h6 class="card-title">افزایش بودجه‌ی عمرانی شهرستان در سال جدید</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100">
+            <img src="images/editor2.jpg" class="card-img-top" alt="خبر سردبیر دو">
+            <div class="card-body">
+              <h6 class="card-title">قهرمانی تیم نوجوانان در مسابقات استانی</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100">
+            <img src="images/editor3.jpg" class="card-img-top" alt="خبر سردبیر سه">
+            <div class="card-body">
+              <h6 class="card-title">بازگشایی موزه‌ی شهر پس از بازسازی کامل</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ۷ و ۸ و ۹. post1 / post2 / post3 : سه ستون خبری دسته‌بندی شده -->
+    <div class="container mt-4">
+      <div class="row">
+
+        <!-- post1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-header bg-primary text-white">سیاسی</div>
+            <img src="images/post1.jpg" class="card-img-top" alt="خبر سیاسی">
+            <div class="card-body">
+              <h6 class="card-title">دیدار فرماندار با اعضای شورای شهر برگزار شد</h6>
+              <p class="card-text small text-muted">۱۴۰۵/۰۴/۰۱</p>
+              <p class="card-text small">شرح مختصری از خبر سیاسی در همین قسمت قرار می‌گیرد.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- post2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-header bg-success text-white">اقتصادی</div>
+            <img src="images/post2.jpg" class="card-img-top" alt="خبر اقتصادی">
+            <div class="card-body">
+              <h6 class="card-title">رشد تولید واحدهای صنعتی منطقه در سه‌ماهه اخیر</h6>
+              <p class="card-text small text-muted">۱۴۰۵/۰۴/۰۱</p>
+              <p class="card-text small">شرح مختصری از خبر اقتصادی در همین قسمت قرار می‌گیرد.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- post3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-header bg-warning text-dark">ورزشی</div>
+            <img src="images/post3.jpg" class="card-img-top" alt="خبر ورزشی">
+            <div class="card-body">
+              <h6 class="card-title">صعود تیم فوتبال نوجوانان به مرحله نیمه‌نهایی</h6>
+              <p class="card-text small text-muted">۱۴۰۵/۰۴/۰۱</p>
+              <p class="card-text small">شرح مختصری از خبر ورزشی در همین قسمت قرار می‌گیرد.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ۱۰. footer -->
+    <footer class="bg-dark text-light mt-5 py-4">
+      <div class="container">
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <h5>عضویت در خبرنامه</h5>
+            <form action="" class="form-inline">
+              <input type="email" class="form-control ml-2 mb-2" placeholder="ایمیل شما">
+              <button type="submit" class="btn btn-light mb-2">ثبت</button>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <h5>راه‌های ارتباطی</h5>
+            <p class="small mb-0">تلفن: ۰۲۱-۱۲۳۴۵۶۷۸ &nbsp; | &nbsp; ایمیل: info@example.com</p>
+          </div>
+        </div>
+        <hr class="bg-secondary">
+        <p class="text-center small mb-0">تمامی حقوق این سایت محفوظ است</p>
+      </div>
+    </footer>
+
+    <script src="lib/js/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
