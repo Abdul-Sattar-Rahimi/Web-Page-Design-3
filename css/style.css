@@ -1,0 +1,21 @@
+body {
+  background-color: #f4f4f4;
+}
+
+.newsbar .badge {
+  font-weight: bold;
+}
+
+.card-img-top {
+  height: 160px;
+  object-fit: cover;
+}
+
+#mainCarousel img {
+  height: 320px;
+  object-fit: cover;
+}
+
+footer a {
+  color: #ffffff;
+}
