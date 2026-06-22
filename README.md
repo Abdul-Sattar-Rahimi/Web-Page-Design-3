@@ -4,6 +4,8 @@
 
 دانشجو: عبدالستار رحیمی
 
+خروجی پروژه: https://abdul-sattar-rahimi.github.io/Web-Page-Design-3/
+
 ## منابع بوت‌استرپ استفاده‌شده در این صفحه
 
 ---
