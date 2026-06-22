@@ -10,9 +10,9 @@
 ## ۱. linkbar (نوار باریک بالای صفحه)
 کلاس‌های استفاده‌شده: `bg-secondary`, `text-white`, `d-flex`, `justify-content-between`
 
-###از کلاس‌های رنگ پس‌زمینه و یوتیلیتی‌های فلکس‌باکس بوت‌استرپ استفاده شده، نه یه کامپوننت خاص:
-####https://getbootstrap.com/docs/4.6/utilities/colors/
-####https://getbootstrap.com/docs/4.6/utilities/flex/
+##از کلاس‌های رنگ پس‌زمینه و یوتیلیتی‌های فلکس‌باکس بوت‌استرپ استفاده شده، نه یه کامپوننت خاص:
+##https://getbootstrap.com/docs/4.6/utilities/colors/
+##https://getbootstrap.com/docs/4.6/utilities/flex/
 
 ---
 
